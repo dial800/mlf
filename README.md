@@ -43,7 +43,7 @@ We know. You have two days to integrate with us. Don't worry, it's easy. We're h
 
 ```
 POST /calls
-Content-Type: application/roundtrip.sales
+Content-Type: application/mercury.longform
 ```
 
 ```xml
@@ -85,7 +85,7 @@ Call successfully matched.
 
 ```xml
 200 OK
-<ID>XDhshURwv60Q2nRyN4cnGVCmMB1cP</ID>
+<ID>12345678990</ID>
 ```
 
 No match for the call.
@@ -98,7 +98,7 @@ No match for the call.
 
 ```
 PUT /calls
-Content-Type: application/roundtrip.sales
+Content-Type: application/mercury.longform
 ```
 
 ```xml
@@ -139,7 +139,7 @@ Call successfully matched.
 
 ```xml
 200 OK
-<ID>XDhshURwv60Q2nRyN4cnGVCmMB1cP</ID>
+<ID>12345678990</ID>
 ```
 
 No match for the call.
