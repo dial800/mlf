@@ -49,7 +49,7 @@ Content-Type: application/roundtrip.sales
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <Call xmlns="http://www.dial800.com/roundtrip/2011-07-15"
-      xmlns:rs="http://www.dial800.com/roundtrip-sales/2011-08-04">      
+      xmlns:mlf="http://www.mercurymedia.com/longform/2011-08-03">      
     <ANI>tel:3105555555</ANI>
     <Target>tel:3109999999</Target>
     <CallStart>2011-07-15T01:02:03-08:00</CallStart>
@@ -104,7 +104,7 @@ Content-Type: application/roundtrip.sales
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <Call xmlns="http://www.dial800.com/roundtrip/2011-07-15"
-      xmlns:rs="http://www.dial800.com/roundtrip-sales/2011-08-04">      
+      xmlns:mlf="http://www.mercurymedia.com/longform/2011-08-03">      
     <ID>12345678990</ID>
     <mlf:TelemarketingCompanyCode>TEST</mlf:TelemarketingCompanyCode>
     <mlf:ProductCode>TEST</mlf:ProductCode>
