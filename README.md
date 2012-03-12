@@ -150,9 +150,13 @@ No match for the call.
 
 ## Working with Media Agencies
 
+### Dial800
+
+[Our native integration](http://docs.dial800.com/).
+
 ### MercuryMedia
 
-[MercuryMedia](www.mercurymedia.com) uses two slightly different formats, [MLF](http://docs.dial800.com/dial800/mlf) and [MSF](http://docs.dial800.com/dial800/msf).
+[Mercury Short Form](http://docs.dial800.com/dial800/msf).
 
 ### Euro
 
