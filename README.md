@@ -148,11 +148,11 @@ No match for the call.
 404 Not Found
 ```
 
-## Working with Media Agencies
+## Other integrations
 
 ### Dial800
 
-[Our native integration](http://docs.dial800.com/).
+[Our native interface](http://docs.dial800.com/).
 
 ### MercuryMedia
 
