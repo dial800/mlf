@@ -348,7 +348,7 @@ No match for the call.
     (The "&lt;CallStart&gt;" element may optionally be passed if the “&lt;ID&gt;” element is absent.)</dd>
 </dl>
 
-## Other integrations
+## Other Integrations
 
 ### Dial800
 
