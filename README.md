@@ -19,7 +19,7 @@ We know. You have two days to integrate with us. Don't worry, it's easy. We're h
 $request = new HTTP_Request2('http://routing.dial800.com/roundtrip');
 $request->setMethod(HTTP_Request2::METHOD_POST)
     ->setAuth('user','password', HTTP_Request2::AUTH_BASIC)
-    ->setHeader('Content-type: application/roundtrip.sales')
+    ->setHeader('Content-type: application/mercury.longform')
     ->setBody(
         "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n" .
         "<Call xmlns=\"http://www.dial800.com/roundtrip/2011-07-15\r\n" .
@@ -77,7 +77,7 @@ namespace Dial800
             byte[] postDataBytes;
             const string userName    = "user";
             const string password    = "password";
-            const string contentType = "application/roundtrip.sales";
+            const string contentType = "application/mercury.longform";
             const string postMethod  = "POST";
             const string postData    
             = @"<?xml version="1.0" encoding="utf-8" ?>
@@ -193,7 +193,7 @@ payload = '''
 '''
 r = request.post('http://routing.dial800.com/routing',
                  auth=HTTPBasicAuth('user','password'),
-                 headers={'content-type': 'application/roundtrip.sales'},
+                 headers={'content-type': 'application/mercury.longform'},
                  data=payload)
 ```
 
@@ -209,7 +209,7 @@ http         = Net::HTTP.new(uri.host, uri.port)
 request      = Net::HTTP::Post.new(uri.host,uri.port)
 request.body = xml_string
 request.basic_auth("user","password")
-request.content_type = "application/roundtrip.sales"
+request.content_type = "application/mercury.longform"
 response     = http.request(request)
 ```
 
