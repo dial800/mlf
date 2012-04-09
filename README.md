@@ -409,3 +409,7 @@ No match for the call.
 ### Euro
 
 Are you using Euro's format? You can find the details [here](http://docs.dial800.com/dial800/euro).
+
+### Omni
+
+Working with Omni? You can find more details [here](https://github.com/dial800/omni).
