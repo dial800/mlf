@@ -215,7 +215,7 @@ response     = http.request(request)
 
 ## Reference
 
-### Authentication
+The Reference documentation can be found [here](http://docs.dial800.com/dial800/reference).
 
 ### POST
 
@@ -412,4 +412,4 @@ Are you using Euro's format? You can find the details [here](http://docs.dial800
 
 ### Omni
 
-Working with Omni? You can find more details [here](https://github.com/dial800/omni).
+Working with Omni? You can find more details [here](https://docs.dial800.com/dial800/omni).
